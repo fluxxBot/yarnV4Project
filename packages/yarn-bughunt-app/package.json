@@ -1,0 +1,14 @@
+{
+  "name": "@yarn-bughunt/app",
+  "version": "1.0.0",
+  "description": "Sample app for yarn v4 bug hunt testing",
+  "main": "src/index.js",
+  "license": "MIT",
+  "publishConfig": {
+    "registry": "<repository>"
+  },
+  "dependencies": {
+    "@yarn-bughunt/lib": "workspace:*",
+    "axios": "^1.7.0"
+  }
+}

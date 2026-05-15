@@ -1,0 +1,13 @@
+{
+  "name": "@yarn-bughunt/lib",
+  "version": "1.0.0",
+  "description": "Shared utility library for yarn v4 bug hunt testing",
+  "main": "src/index.js",
+  "license": "MIT",
+  "publishConfig": {
+    "registry": "<repository>"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
+}
